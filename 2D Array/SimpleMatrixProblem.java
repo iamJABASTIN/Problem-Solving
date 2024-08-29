@@ -1,5 +1,4 @@
 //Simple program with 2D array
-package Matrix;
 
 import java.util.Scanner;
 
