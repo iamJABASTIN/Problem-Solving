@@ -36,6 +36,7 @@ public class reverseString {
             System.out.print("Enter character " + (i + 1) + " : ");
             arr[i] = s.next().charAt(0);
         }
+        s.close();
         fun(arr);
     }
 }
