@@ -21,7 +21,6 @@ Explanation: In this example, we can form 2 pair of strings in the following way
 It can be proven that 2 is the maximum number of pairs that can be formed.
  */
 
-import java.util.*;
 
 public class FindMaximumNumberOfStringPairs {
     public static void main(String[] args) {
