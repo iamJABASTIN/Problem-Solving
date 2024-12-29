@@ -39,16 +39,19 @@ public class ValidParenthese {
                 if (poppedEle == '\0')
                     System.out.println("It's not a valid parenthese...");
                 if ((c == ')' && poppedEle != '(') ||
-                    (c == '}' && poppedEle != '{') ||
-                    (c == ']' && poppedEle != '[')) {
+                        (c == '}' && poppedEle != '{') ||
+                        (c == ']' && poppedEle != '[')) {
                     System.out.println("It's not a valid parenthese...");
                 }
             }
         }
-        if (top == -1) {
-            System.out.println("The given string have a valid parenthese...");
-        } else {
-            System.out.println("The given string not have a valid parenthese...");
-        }
+        // if (top == -1) {
+        // System.out.println("The given string have a valid parenthese...");
+        // } else {
+        // System.out.println("The given string not have a valid parenthese...");
+        // }
+
+        System.out.println(top == -1 ? "The given string have a valid parenthese..."
+                : "The given string not have a valid parenthese...");
     }
 }
