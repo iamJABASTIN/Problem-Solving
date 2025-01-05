@@ -1,4 +1,4 @@
-package Recurssion;
+package Recursion;
 
 /**
  * SumOfDigitsUsingRecurssion
